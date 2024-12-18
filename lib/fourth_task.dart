@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class FourthTask extends StatelessWidget {
@@ -38,19 +39,16 @@ class FourthTask extends StatelessWidget {
             ),
           ],
         ),
-        body: Padding(
-          padding: const EdgeInsets.only(top: 40, left: 30),
+        body: const Padding(
+          padding: EdgeInsets.only(top: 40, left: 30),
           child: Column(
             spacing: 50,
             children: [
               Row(
                 spacing: 25,
                 children: [
-                  CircleAvatar(
-                    backgroundColor: Colors.grey.shade200,
-                    radius: 40,
-                  ),
-                  const Column(
+                  Icon(CupertinoIcons.person_alt_circle_fill, size: 80,),
+                  Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
@@ -69,11 +67,8 @@ class FourthTask extends StatelessWidget {
               Row(
                 spacing: 25,
                 children: [
-                  CircleAvatar(
-                    backgroundColor: Colors.grey.shade200,
-                    radius: 40,
-                  ),
-                  const Column(
+                  Icon(CupertinoIcons.person_alt_circle_fill, size: 80,),
+                  Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
@@ -92,11 +87,8 @@ class FourthTask extends StatelessWidget {
               Row(
                 spacing: 25,
                 children: [
-                  CircleAvatar(
-                    backgroundColor: Colors.grey.shade200,
-                    radius: 40,
-                  ),
-                  const Column(
+                  Icon(CupertinoIcons.person_alt_circle_fill, size: 80,),
+                  Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
@@ -115,11 +107,8 @@ class FourthTask extends StatelessWidget {
               Row(
                 spacing: 25,
                 children: [
-                  CircleAvatar(
-                    backgroundColor: Colors.grey.shade200,
-                    radius: 40,
-                  ),
-                  const Column(
+                  Icon(CupertinoIcons.person_alt_circle_fill, size: 80,),
+                  Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
@@ -138,11 +127,8 @@ class FourthTask extends StatelessWidget {
               Row(
                 spacing: 25,
                 children: [
-                  CircleAvatar(
-                    backgroundColor: Colors.grey.shade200,
-                    radius: 40,
-                  ),
-                  const Column(
+                  Icon(CupertinoIcons.person_alt_circle_fill, size: 80,),
+                  Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
@@ -161,11 +147,8 @@ class FourthTask extends StatelessWidget {
               Row(
                 spacing: 25,
                 children: [
-                  CircleAvatar(
-                    backgroundColor: Colors.grey.shade200,
-                    radius: 40,
-                  ),
-                  const Column(
+                  Icon(CupertinoIcons.person_alt_circle_fill, size: 80,),
+                  Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
